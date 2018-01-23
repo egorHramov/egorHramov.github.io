@@ -1,0 +1,67 @@
+@text: #333333;
+@active: #3c3cdd;
+@white: #ffffff;
+
+
+body {
+	font-family: "Tahoma", sans-serif;
+	color: @text;
+}
+h2 {
+	font-family: "Tahoma", sans-serif;
+	color: @text;
+}
+
+// main
+
+.section {
+	padding: 30px 0;
+}
+.header {
+	font-size: 20px;
+	margin: 60px auto;
+	span {
+		display: block;
+	}
+	strong {
+		text-transform: uppercase;
+	}
+}
+
+
+.form {
+	border: 5px solid @active;
+	padding: 35px 20px;
+	&__header {
+		margin-bottom: 20px;
+		font-size: 20px;
+		font-weight: 900;
+	}
+	input {
+		margin-bottom: 12px;
+	}
+	&-btn {
+		margin: 10px auto;
+		background-color: @active;
+	}
+}
+.section {
+	&-header {
+		font-size: 20px;
+		font-weight: 900;
+	}
+}
+
+.feature {
+	margin-top: 60px;
+	p {
+		margin-top: 20px;
+	}
+	&-box {
+		height: 160px;
+	}
+}
+
+.video {
+	margin-bottom: 30px;
+}
